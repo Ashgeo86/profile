@@ -6,15 +6,16 @@ h1 {
 }
 
 body {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRb4rIlZjy9_ki6jAW1diajaO6X4cdN7fCnw&s);
+  background-image: linear-gradient(0, rgba(39, 130, 133, 0.5) 0%, rgba(39, 130, 133, 0.5) 14%,rgba(59, 145, 133, 0.5) 14%, rgba(59, 145, 133, 0.5) 18%,rgba(79, 160, 132, 0.5) 18%, rgba(79, 160, 132, 0.5) 20%,rgba(99, 175, 132, 0.5) 20%, rgba(99, 175, 132, 0.5) 28%,rgba(119, 189, 132, 0.5) 28%, rgba(119, 189, 132, 0.5) 64%,rgba(139, 204, 132, 0.5) 64%, rgba(139, 204, 132, 0.5) 67%,rgba(159, 219, 131, 0.5) 67%, rgba(159, 219, 131, 0.5) 85%,rgba(179, 234, 131, 0.5) 85%, rgba(179, 234, 131, 0.5) 100%),linear-gradient(90deg, rgb(37, 19, 116) 0%, rgb(37, 19, 116) 5%,rgb(62, 52, 104) 5%, rgb(62, 52, 104) 16%,rgb(87, 85, 92) 16%, rgb(87, 85, 92) 31%,rgb(112, 118, 80) 31%, rgb(112, 118, 80) 32%,rgb(137, 151, 67) 32%, rgb(137, 151, 67) 44%,rgb(162, 184, 55) 44%, rgb(162, 184, 55) 63%,rgb(187, 217, 43) 63%, rgb(187, 217, 43) 81%,rgb(212, 250, 31) 81%, rgb(212, 250, 31) 100%);
 }
 
 .card-white {
   background-color: white;
   box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   margin: 20px 0;
+  border-radius: 6%;
 }
 
 .img-circle {
@@ -29,4 +30,9 @@ body {
 
 .list-inline {
   padding: 0;
+}
+
+.container {
+  width: 600px;
+  margin: 0px auto;
 }
